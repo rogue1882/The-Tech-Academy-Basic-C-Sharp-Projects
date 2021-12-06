@@ -10,6 +10,7 @@ namespace AICP
     {
         static void Main(string[] args)
         {
+            //This is the salary program
             Console.WriteLine("Annonymouse Income Comparison Program");
             Console.ReadLine();
             // Collecting Person 1 information. 
