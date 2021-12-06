@@ -31,13 +31,15 @@ namespace Daily_Report
             //Kept a simple string since only displaying
             Console.WriteLine("What page number are you on?");
             string number = Console.ReadLine();
-            Console.WriteLine("you are on page number " + number + "!");
+            int pNumber = Convert.ToInt32(number);
+            Console.WriteLine("you are on page number " + pNumber + "!");
             Console.ReadLine();
 
             //Asking if user needs help and returning their answer.
             Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false\"");
             string help = Console.ReadLine();
-            Console.WriteLine("you answered " + help);
+            bool pHelp = Convert.ToBoolean(help);
+            Console.WriteLine("you answered " + pHelp);
             Console.ReadLine();
 
             //Requested any positive experiances and returned answer for user to see.
@@ -55,7 +57,8 @@ namespace Daily_Report
             //Requested hours of study and returned to user. 
             Console.WriteLine("How many hours did you study today");
             string hours = Console.ReadLine();
-            Console.WriteLine("Hours studied " + hours);
+            decimal pHours = Convert.ToDecimal(hours);
+            Console.WriteLine("Hours studied " + pHours);
             Console.ReadLine();
 
             //Closing message
