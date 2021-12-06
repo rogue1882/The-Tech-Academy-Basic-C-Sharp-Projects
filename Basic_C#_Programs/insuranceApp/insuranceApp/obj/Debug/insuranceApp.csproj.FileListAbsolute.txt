@@ -1,0 +1,7 @@
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\insuranceApp\insuranceApp\obj\Debug\insuranceApp.csproj.AssemblyReference.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\insuranceApp\insuranceApp\obj\Debug\insuranceApp.csproj.CoreCompileInputs.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\insuranceApp\insuranceApp\bin\Debug\insuranceApp.exe.config
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\insuranceApp\insuranceApp\bin\Debug\insuranceApp.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\insuranceApp\insuranceApp\bin\Debug\insuranceApp.pdb
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\insuranceApp\insuranceApp\obj\Debug\insuranceApp.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\insuranceApp\insuranceApp\obj\Debug\insuranceApp.pdb
