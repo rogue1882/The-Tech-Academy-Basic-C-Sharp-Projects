@@ -1,0 +1,7 @@
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\Array App\Array App\bin\Debug\Array App.exe.config
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\Array App\Array App\bin\Debug\Array App.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\Array App\Array App\bin\Debug\Array App.pdb
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\Array App\Array App\obj\Debug\Array App.csproj.AssemblyReference.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\Array App\Array App\obj\Debug\Array App.csproj.CoreCompileInputs.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\Array App\Array App\obj\Debug\Array App.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\Array App\Array App\obj\Debug\Array App.pdb
