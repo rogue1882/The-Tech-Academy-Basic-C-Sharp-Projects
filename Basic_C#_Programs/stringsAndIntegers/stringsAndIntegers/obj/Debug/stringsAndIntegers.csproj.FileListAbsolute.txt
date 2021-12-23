@@ -1,0 +1,7 @@
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\stringsAndIntegers\stringsAndIntegers\bin\Debug\stringsAndIntegers.exe.config
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\stringsAndIntegers\stringsAndIntegers\bin\Debug\stringsAndIntegers.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\stringsAndIntegers\stringsAndIntegers\bin\Debug\stringsAndIntegers.pdb
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\stringsAndIntegers\stringsAndIntegers\obj\Debug\stringsAndIntegers.csproj.AssemblyReference.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\stringsAndIntegers\stringsAndIntegers\obj\Debug\stringsAndIntegers.csproj.CoreCompileInputs.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\stringsAndIntegers\stringsAndIntegers\obj\Debug\stringsAndIntegers.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\stringsAndIntegers\stringsAndIntegers\obj\Debug\stringsAndIntegers.pdb
