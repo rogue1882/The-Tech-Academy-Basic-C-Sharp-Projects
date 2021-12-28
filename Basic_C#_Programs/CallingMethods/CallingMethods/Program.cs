@@ -10,21 +10,29 @@ namespace CallingMethods
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a number for the math program test.");
+            Console.WriteLine("Please enter a number bluecar packs you would like to order.");
             {
                 int num1 = Convert.ToInt32(Console.ReadLine());
                 Console.ReadLine();
             }
         }
 
-        public static Math()
-            {
-            int Num2 = 2246;
-            int Num1 = Convert.ToInt32(Console.ReadLine());
-            int Num3 = Num2 / Num1;
-            Console.WriteLine(Num3);
-            _ = Console.ReadLine();
-            }
+    }
+
+
+        public static void ModelCar(int BlueCarPacks)
+        {
+           
+
+                int Num1 = Convert.ToInt32(Console.ReadLine());
+                int Num3 = BlueCarPacks * Num1;
+
+
+                Console.WriteLine("You have chosen " + Num3 + "is this correct?");
+                Console.ReadLine();
+            
+            
+        }
         
         
     }
