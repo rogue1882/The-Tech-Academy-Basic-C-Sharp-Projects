@@ -10,29 +10,26 @@ namespace CallingMethods
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a number bluecar packs you would like to order.");
+            //request user input
+            Console.WriteLine("Please enter a number. ");
             {
-                int num1 = Convert.ToInt32(Console.ReadLine());
-                Console.ReadLine();
+                //Convert to integer
+                int userNum = Convert.ToInt32(Console.ReadLine());
+
+                //Calling the add method
+                Numbers.AddNumber(userNum);
+                
+                //Calling the subtraction method
+                Numbers.SubNumber(userNum);
+
+                //Calling the multiply method
+                Numbers.MultiplyNumber(userNum);
             }
-        }
-
-    }
-
-
-        public static void ModelCar(int BlueCarPacks)
-        {
            
-
-                int Num1 = Convert.ToInt32(Console.ReadLine());
-                int Num3 = BlueCarPacks * Num1;
-
-
-                Console.WriteLine("You have chosen " + Num3 + "is this correct?");
-                Console.ReadLine();
-            
-            
         }
+
+
+        
         
         
     }
