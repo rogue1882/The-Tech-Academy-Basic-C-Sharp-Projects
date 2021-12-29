@@ -17,15 +17,15 @@ namespace CallingMethods
                 int userNum = Convert.ToInt32(Console.ReadLine());
 
                 //Calling the add method
-                Numbers.AddNumber(userNum);
+                Console.WriteLine(Numbers.AddNumber(userNum));
                 
                 //Calling the subtraction method
-                Numbers.SubNumber(userNum);
+                Console.WriteLine(Numbers.SubNumber(userNum));
 
                 //Calling the multiply method
-                Numbers.MultiplyNumber(userNum);
+                Console.WriteLine(Numbers.MultiplyNumber(userNum));
             }
-           
+            Console.ReadLine();
         }
 
 

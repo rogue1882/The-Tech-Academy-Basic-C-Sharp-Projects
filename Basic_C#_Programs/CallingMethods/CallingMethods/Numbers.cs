@@ -13,6 +13,7 @@ namespace CallingMethods
         {
             int newNum = userNum + 10;
             return newNum;
+            
          }
 
         //Subtraction method
