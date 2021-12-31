@@ -21,6 +21,9 @@ namespace MainMethod
 
                 //Calling the decimal subtraction method
                 Console.WriteLine(Submission.addNumber(userNum));
+
+                //Calling the String method
+                Console.WriteLine(Submission.AddNumber(userNum));
             }
             Console.ReadLine();
         }

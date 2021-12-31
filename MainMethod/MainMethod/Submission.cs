@@ -24,10 +24,10 @@ namespace MainMethod
         }
 
         //Multiply method
-        public static string AddNumber(string userNum)
+        public static int AddNumber(string userNum)
         {
-            int userNum4 = Convert.ToInt32(userNum);
-            int newNum3 = userNum4 + 2;
+
+            int newNum3 = Convert.ToInt32(userNum) + 2;
             return newNum3;
         }
     }
