@@ -1,0 +1,7 @@
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsandObjectsSubmission\MethodsandObjectsSubmission\bin\Debug\MethodsandObjectsSubmission.exe.config
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsandObjectsSubmission\MethodsandObjectsSubmission\bin\Debug\MethodsandObjectsSubmission.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsandObjectsSubmission\MethodsandObjectsSubmission\bin\Debug\MethodsandObjectsSubmission.pdb
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsandObjectsSubmission\MethodsandObjectsSubmission\obj\Debug\MethodsandObjectsSubmission.csproj.AssemblyReference.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsandObjectsSubmission\MethodsandObjectsSubmission\obj\Debug\MethodsandObjectsSubmission.csproj.CoreCompileInputs.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsandObjectsSubmission\MethodsandObjectsSubmission\obj\Debug\MethodsandObjectsSubmission.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsandObjectsSubmission\MethodsandObjectsSubmission\obj\Debug\MethodsandObjectsSubmission.pdb
