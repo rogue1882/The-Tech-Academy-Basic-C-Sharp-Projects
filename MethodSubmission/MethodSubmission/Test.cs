@@ -8,11 +8,14 @@ namespace MethodSubmission
 {
     class Test
     {
-        public static int TestNumber(int userNum, int Num2)
+        public static int TestNumber(int userNum)
         {
-            int newNum = userNum + 12;
-            return Num2;
-            
+            int num3 = 22;
+            int openNum = userNum + num3;
+            return openNum;
+
         }
+
     }
+
 }
