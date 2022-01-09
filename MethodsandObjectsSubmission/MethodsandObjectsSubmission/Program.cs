@@ -14,8 +14,16 @@ namespace MethodsandObjectsSubmission
             employee.FirstName = "Sample";
             employee.LastName = "Student";
             employee.Id = 12;
-            employee.SayName();  
+            employee.SayName();
+
+            employee.Quit(employee);
+
+
         } 
+       
+
+
+
        
        
     }
