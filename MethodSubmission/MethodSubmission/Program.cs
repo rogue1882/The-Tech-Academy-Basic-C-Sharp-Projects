@@ -16,15 +16,15 @@ namespace MethodSubmission
 
         public static void Main(string[] args)
         {
-             try
+            Console.WriteLine("Pick a number.");
+            int userNum = Convert.ToInt32(Console.ReadLine());
+            
+            try
             {
-                Console.WriteLine("Pick a number.");
-                int userNum = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Please pick a 2nd number if you would like.");
                 int Num2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(takeTwo.AddNumber(userNum, Num2));
-                
-                
+            
                 Console.ReadLine();
             }
             catch (FormatException ex)
