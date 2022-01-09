@@ -30,7 +30,7 @@ namespace MethodSubmission
             catch (FormatException ex)
             {
                 
-                Console.WriteLine(Test.TestNumber(userNum));
+                Console.WriteLine(takeTwo.AddNumber(userNum));
                 
             }
             finally
