@@ -16,7 +16,9 @@ namespace MethodsandObjectsSubmission
             employee.Id = 12;
             employee.SayName();
 
+            IQuittable quitter = new Employee();
             employee.Quit(employee);
+            employee.Id = 12;
 
 
         } 
