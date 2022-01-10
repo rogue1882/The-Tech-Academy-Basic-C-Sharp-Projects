@@ -13,12 +13,7 @@ namespace AbstractClassSubmission
         public string LastName { get; set; }
 
         // Created method SayName
-        public virtual void SayName()
-        {
-            string FullName = FirstName + " " + LastName;
-            Console.WriteLine(FullName);
-            Console.ReadLine();
-        }
-
+        public abstract void SayName();
+        
     }
 }

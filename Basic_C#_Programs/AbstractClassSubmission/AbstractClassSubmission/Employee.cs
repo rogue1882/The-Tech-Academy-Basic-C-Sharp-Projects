@@ -13,9 +13,14 @@ namespace AbstractClassSubmission
         //Added property Id
         public int Id { get; set; }
 
-        public override void SayName()
+        public override void SayName() 
         {
-            base.SayName();
+            {
+                string FullName = FirstName + " " + LastName;
+                Console.WriteLine(FullName);
+                Console.ReadLine();
+            }
+;
         }
     }
 
