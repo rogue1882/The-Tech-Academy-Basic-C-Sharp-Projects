@@ -17,6 +17,15 @@ namespace MethodsandObjectsSubmission
         {
             Console.WriteLine("This employee has Quit");
             Console.ReadLine();
+        }
+
+        public static Person operator ==(Person person, Employee employee)
+        {
+            if (employee.Id == 12);
+            Console.WriteLine("You have a duplicate Employee ID of 12");
+        }
+        public static Person operator !=(Person person, Employee employee)
+        {
 
         }
     }

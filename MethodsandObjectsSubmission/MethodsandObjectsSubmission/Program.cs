@@ -16,9 +16,21 @@ namespace MethodsandObjectsSubmission
             employee.Id = 12;
             employee.SayName();
 
-            IQuittable quitter = new Employee();
-            employee.Quit(employee);
+            Employee employee1 = new Employee();
+            employee.FirstName = "Joe";
+            employee.LastName = "Smith";
+            employee.Id = 11;
+            employee.SayName();
+
+            Employee employee2 = new Employee();
+            employee.FirstName = "Sample";
+            employee.LastName = "Student";
             employee.Id = 12;
+            employee.SayName();
+
+            //IQuittable quitter = new Employee();
+            //employee.Quit(employee);
+            //employee.Id = 12;
 
 
         } 
