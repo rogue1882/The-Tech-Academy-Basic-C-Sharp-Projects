@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MethodsandObjectsSubmission
 {
@@ -21,13 +17,16 @@ namespace MethodsandObjectsSubmission
 
         public static Person operator ==(Person person, Employee employee)
         {
-            if (employee.Id == 12);
+            if (employee.Id == employee.Id) ;
             Console.WriteLine("You have a duplicate Employee ID of 12");
         }
         public static Person operator !=(Person person, Employee employee)
         {
-
+            if (employee.Id != employee.Id) ;
+            Console.WriteLine("employee ID is good.");
+            Console.ReadLine();
         }
+        
     }
 
 }
