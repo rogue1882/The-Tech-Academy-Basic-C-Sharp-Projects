@@ -8,7 +8,7 @@ namespace MethodsandObjectsSubmission
 {
     public class Program
     {
-       public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Employee employee = new Employee();
             employee.FirstName = "Sample";
@@ -32,13 +32,7 @@ namespace MethodsandObjectsSubmission
             //employee.Quit(employee);
             //employee.Id = 12;
 
+        }
 
-        } 
-       
-
-
-
-       
-       
     }
 }

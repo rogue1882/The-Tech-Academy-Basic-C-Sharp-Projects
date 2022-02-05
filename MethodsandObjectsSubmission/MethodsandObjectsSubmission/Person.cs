@@ -22,12 +22,12 @@ namespace MethodsandObjectsSubmission
 
         //Created method EmployeeName
 
-        //public string EmployeeName()
-        //{
-        //    string FullName =  FirstName + " " + LastName ;
-        //    return FullName;
-            
-        //}
+        public string EmployeeName()
+        {
+            string FullName = FirstName + " " + LastName;
+            return FullName;
+
+        }
 
     }
 }

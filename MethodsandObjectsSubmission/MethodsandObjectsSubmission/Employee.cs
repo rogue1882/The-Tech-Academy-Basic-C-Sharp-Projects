@@ -15,16 +15,16 @@ namespace MethodsandObjectsSubmission
             Console.ReadLine();
         }
 
-        public static Person operator ==(Person person, Employee employee)
+        public static bool operator ==(Employee employee, Employee employee2)
         {
-            if (employee.Id == employee.Id) ;
-            Console.WriteLine("You have a duplicate Employee ID of 12");
+            return true;
+            
+            
         }
-        public static Person operator !=(Person person, Employee employee)
+        public static bool operator !=(Employee employee, Employee employee2)
         {
-            if (employee.Id != employee.Id) ;
-            Console.WriteLine("employee ID is good.");
-            Console.ReadLine();
+            return false;
+
         }
         
     }
