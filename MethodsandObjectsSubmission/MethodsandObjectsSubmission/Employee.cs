@@ -1,4 +1,5 @@
 ﻿using System;
+using static MethodsandObjectsSubmission.Employee;
 
 namespace MethodsandObjectsSubmission
 {
@@ -15,18 +16,19 @@ namespace MethodsandObjectsSubmission
             Console.ReadLine();
         }
 
-        public static bool operator ==(Employee employee, Employee employee2)
+        public static bool operator ==(Id employee , Id employee2)
         {
             return true;
-            
-            
         }
-        public static bool operator !=(Employee employee, Employee employee2)
+
+        public static bool operator !=(Id employee , Id employee2)
         {
             return false;
-
         }
-        
+
+        public class Id
+        {
+        }
     }
 
 }
