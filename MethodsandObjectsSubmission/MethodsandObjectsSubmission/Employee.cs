@@ -16,19 +16,17 @@ namespace MethodsandObjectsSubmission
             Console.ReadLine();
         }
 
-        public static bool operator ==(Id employee , Id employee2)
+        public static bool operator ==(Employee employee , Employee employee2)
         {
-            return true;
+            return employee.Id == employee2.Id;
         }
 
-        public static bool operator !=(Id employee , Id employee2)
+        public static bool operator !=(Employee employee , Employee employee2)
         {
-            return false;
+            return employee.Id != employee2.Id;
         }
 
-        public class Id
-        {
-        }
+        
     }
 
 }

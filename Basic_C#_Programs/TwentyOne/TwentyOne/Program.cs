@@ -22,7 +22,8 @@ namespace TwentyOne
             //game += player;
             //game -= player;
 
-
+            //Card card = new Card();
+            //card.Suit = Suit.Clubs;
 
             Deck deck = new Deck();
             deck.Shuffle(3);
