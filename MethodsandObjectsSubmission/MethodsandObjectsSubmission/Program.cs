@@ -32,6 +32,9 @@ namespace MethodsandObjectsSubmission
             //employee.Quit(employee);
             //employee.Id = 12;
 
+            Console.WriteLine(employee == employee2);
+            Console.ReadLine();
+
         }
 
     }
