@@ -21,7 +21,7 @@ namespace TwentyOne
         Clubs,
         Diamonds,
         Hearts,
-        Spades,
+        Spades
     }
     public enum Face
     {
@@ -37,6 +37,6 @@ namespace TwentyOne
         Jack,
         Queen,
         King,
-        Ace,
+        Ace
     }
 }
