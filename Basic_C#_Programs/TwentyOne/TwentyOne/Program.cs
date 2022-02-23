@@ -27,14 +27,25 @@ namespace TwentyOne
 
 
 
-            Card card1 = new Card();
-            Card card2 = card1;
-            card1.Face = Face.Eight;
-            card2.Face = Face.King;
+            //Card card1 = new Card();
+            //Card card2 = card1;
+            //card1.Face = Face.Eight;
+            //card2.Face = Face.King;
 
-            Console.WriteLine(card1.Face);
+            //Console.WriteLine(card1.Face);
 
-            //Deck deck = new Deck();
+            Deck deck = new Deck();
+
+            //int count = deck.Cards.Count(x => x.Face == Face.Ace);
+           //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+
+
+           // foreach(Card card in newList)
+           // {
+           //     Console.WriteLine(card.Face);
+           // }
+            
+
             //deck.Shuffle(3);
 
             //foreach (Card card in deck.Cards)
