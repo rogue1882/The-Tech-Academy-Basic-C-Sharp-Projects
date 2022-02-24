@@ -14,7 +14,7 @@ namespace Lambda_Submission
             string Fname;
             string Lname;
 
-            static void Main(string[] args)
+            public static void Main(string[] args)
             {
                 //Created List of Employees
                 List<Employee> employees = new List<Employee>()
@@ -31,7 +31,7 @@ namespace Lambda_Submission
                     new Employee { Fname = "Johnny", Lname = "Torry", ID = 109 },
                 };
 
-                List<Employee> joeList = employees.Where(X => X.ID > ID.105).ToList();
+                List<Employee> joeList = employees.Where(X => X.ID > 105).ToList();
                 Console.WriteLine(joeList);
                 Console.ReadLine();
 
