@@ -8,11 +8,7 @@ namespace Lambda_Submission
 {
     class Program
     {
-        public class Employee
-        {
-            int ID;
-            string Fname;
-            string Lname;
+        
 
             public static void Main(string[] args)
             {
@@ -31,41 +27,43 @@ namespace Lambda_Submission
                     new Employee { Fname = "Johnny", Lname = "Torry", ID = 109 },
                 };
 
-                List<Employee> joeList = employees.Where(X => X.ID > 105).ToList();
-                Console.WriteLine(joeList);
+            List<Employee> joeList = employees.Where(X => X.ID >105).ToList();
+
+
+             //List<Employee> joeList = employees.Where(x => x.Fname == "Joe").ToList();
+
+            // Created Joe list
+            //List<Employee> joeList = new List<Employee>();
+
+
+
+
+
+            // Foreach loop to seperate Joe out to new List
+            // foreach (Employee employee in employees)
+            //{
+            //    if (employee.Fname == "Joe")
+            //    {
+            //        joeList.Add(employee);
+            //    }
+            //}
+
+           // foreach loop to print joeList
+            foreach (Employee emp in joeList)
+            {
+                Console.WriteLine(emp.Fname + " " + emp.Lname + " " + emp.ID);
                 Console.ReadLine();
 
-                // List<Employee> joeList = employees.Where(x => x.Fname == Fname.).Tolist();
+                }
 
-                // Created Joe list
-                //List<Employee> joeList = new List<Employee>();
-
-
+              // Console.WriteLine(joeList);
+            //Console.ReadLine();
 
 
-
-                // Foreach loop to seperate Joe out to new List
-                // foreach (Employee employee in employees)
-                //{
-                //    if (employee.Fname == "Joe")
-                //    {
-                //        joeList.Add(employee);
-                //    }
-                //}
-
-                //foreach loop to print joeList
-                //foreach (Employee emp in joeList)
-                //{
-                //Console.WriteLine(emp.Fname + " " + emp.Lname + " " + emp.ID);
-                //Console.ReadLine();
-
-                //}
-
-
-            }
+        }
         }
     }
-}
+
                 
                     
     
