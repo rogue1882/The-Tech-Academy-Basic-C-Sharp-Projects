@@ -16,6 +16,7 @@ namespace Lambda_Submission
 
             static void Main(string[] args)
             {
+                //Created List of Employees
                 List<Employee> employees = new List<Employee>()
                 {
                     new Employee { Fname = "Larry", Lname = "Tatlor", ID = 100 },
@@ -30,13 +31,37 @@ namespace Lambda_Submission
                     new Employee { Fname = "Johnny", Lname = "Torry", ID = 109 },
                 };
 
-                foreach (Employee employee in employees)
-                {
-                    if (employee.Fname =="Joe")
-                    {
-                        
-                    }
-                }
+                List<Employee> joeList = employees.Where(X => X.ID > ID.105).ToList();
+                Console.WriteLine(joeList);
+                Console.ReadLine();
+
+                // List<Employee> joeList = employees.Where(x => x.Fname == Fname.).Tolist();
+
+                // Created Joe list
+                //List<Employee> joeList = new List<Employee>();
+
+
+
+
+
+                // Foreach loop to seperate Joe out to new List
+                // foreach (Employee employee in employees)
+                //{
+                //    if (employee.Fname == "Joe")
+                //    {
+                //        joeList.Add(employee);
+                //    }
+                //}
+
+                //foreach loop to print joeList
+                //foreach (Employee emp in joeList)
+                //{
+                //Console.WriteLine(emp.Fname + " " + emp.Lname + " " + emp.ID);
+                //Console.ReadLine();
+
+                //}
+
+
             }
         }
     }
