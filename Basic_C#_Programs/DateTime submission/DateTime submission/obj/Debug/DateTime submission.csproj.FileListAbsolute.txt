@@ -1,0 +1,7 @@
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\DateTime submission\DateTime submission\bin\Debug\DateTime submission.exe.config
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\DateTime submission\DateTime submission\bin\Debug\DateTime submission.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\DateTime submission\DateTime submission\bin\Debug\DateTime submission.pdb
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\DateTime submission\DateTime submission\obj\Debug\DateTime submission.csproj.AssemblyReference.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\DateTime submission\DateTime submission\obj\Debug\DateTime submission.csproj.CoreCompileInputs.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\DateTime submission\DateTime submission\obj\Debug\DateTime submission.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\DateTime submission\DateTime submission\obj\Debug\DateTime submission.pdb
