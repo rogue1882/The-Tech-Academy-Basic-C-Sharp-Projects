@@ -1,0 +1,7 @@
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\ConstructorSubmissionNew\ConstructorSubmissionNew\bin\Debug\ConstructorSubmissionNew.exe.config
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\ConstructorSubmissionNew\ConstructorSubmissionNew\bin\Debug\ConstructorSubmissionNew.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\ConstructorSubmissionNew\ConstructorSubmissionNew\bin\Debug\ConstructorSubmissionNew.pdb
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\ConstructorSubmissionNew\ConstructorSubmissionNew\obj\Debug\ConstructorSubmissionNew.csproj.AssemblyReference.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\ConstructorSubmissionNew\ConstructorSubmissionNew\obj\Debug\ConstructorSubmissionNew.csproj.CoreCompileInputs.cache
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\ConstructorSubmissionNew\ConstructorSubmissionNew\obj\Debug\ConstructorSubmissionNew.exe
+D:\C# and .NET\The Tech Academy Basic C-Sharp Projects\The-Tech-Academy-Basic-C-Sharp-Projects\Basic_C#_Programs\ConstructorSubmissionNew\ConstructorSubmissionNew\obj\Debug\ConstructorSubmissionNew.pdb
