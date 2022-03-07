@@ -8,10 +8,13 @@ namespace ConstructorSubmissionNew
 {
     public class Reservation
     {
-        Reservation Reservations = new Reservation();
+        
+
 
         public Reservation()
         {
+          
+
         }
 
         public Reservation(object name)

@@ -19,7 +19,7 @@ namespace TwentyOne
 
             Guid identifier = Guid.NewGuid();
 
-            Console.WriteLine("Welcome to the {0}.  Let's start by telling me your name.");
+            Console.WriteLine("Welcome to the {0}.  Let's start by telling me your name." , casinoName);
             string playerName = Console.ReadLine();
 
             Console.WriteLine("And how much did you bring today?");

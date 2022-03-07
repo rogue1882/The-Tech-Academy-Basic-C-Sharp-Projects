@@ -20,9 +20,9 @@ namespace ConstructorSubmissionNew
             //getting information for reservation
             Console.WriteLine("What name would you like the reservation under?");
             string Name = (Console.ReadLine());
-            Reservation reservation = new Reservation(Name);
+            var reservation = new Reservation(Name);
 
-            Console.WriteLine("Your reservation at the {0} is under the name of {1}.  Thank you", hotelName, reservation);
+            Console.WriteLine("Your reservation at the {0} is under the name of {1}.  Thank you", hotelName, Name);
             Console.ReadLine();
 
 
