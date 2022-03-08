@@ -19,7 +19,7 @@ namespace ConstructorSubmissionNew
 
         public Reservation(object name)
         {
-            Name = name;
+            this.Name = name;
         }
 
         public object Name { get; }

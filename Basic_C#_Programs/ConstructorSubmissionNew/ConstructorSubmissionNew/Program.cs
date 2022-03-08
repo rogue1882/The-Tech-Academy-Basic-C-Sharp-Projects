@@ -22,8 +22,15 @@ namespace ConstructorSubmissionNew
             string Name = (Console.ReadLine());
             var reservation = new Reservation(Name);
 
-            Console.WriteLine("Your reservation at the {0} is under the name of {1}.  Thank you", hotelName, Name);
+            Console.WriteLine("How many night will you be staying?");
+            int Date = Convert.ToInt32(Console.ReadLine());
+
+
+
+            Console.WriteLine("Your reservation at the {0} is under the name of {1} for {2} nights.  Thank you", hotelName, Name, Date);
             Console.ReadLine();
+
+
 
 
            
