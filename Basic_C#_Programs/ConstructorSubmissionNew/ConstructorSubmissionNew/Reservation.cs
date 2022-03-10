@@ -11,9 +11,14 @@ namespace ConstructorSubmissionNew
         public string Name;
         public string ID;
 
-        public Reservation(string name)
+        public Reservation()
         {
-            Name = name;
+
+        }
+
+        public Reservation(string ID) : this(name: ID)
+        {
+            Name = Name;
         }
 
         public Reservation( string name = "", string ID = "")
