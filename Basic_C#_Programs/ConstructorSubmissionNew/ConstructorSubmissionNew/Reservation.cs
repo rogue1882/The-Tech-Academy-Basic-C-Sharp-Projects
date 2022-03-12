@@ -24,7 +24,7 @@ namespace ConstructorSubmissionNew
         public Reservation( string name = "", string ID = "")
         {
             this.ID = ID;
-            this.Name = Name;
+            this.Name = name;
         }
 
         
