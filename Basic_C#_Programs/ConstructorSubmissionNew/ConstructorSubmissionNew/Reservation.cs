@@ -16,14 +16,13 @@ namespace ConstructorSubmissionNew
 
         }
 
-        public Reservation(string ID) : this(name: ID)
+        public Reservation(string id) : this("John", id)
         {
-            Name = Name;
         }
 
-        public Reservation( string name = "", string ID = "")
+        public Reservation( string name, string id)
         {
-            this.ID = ID;
+            this.ID = id;
             this.Name = name;
         }
 

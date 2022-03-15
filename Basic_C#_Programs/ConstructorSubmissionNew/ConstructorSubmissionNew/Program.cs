@@ -16,18 +16,10 @@ namespace ConstructorSubmissionNew
             // Creating opening statement and question
             Console.WriteLine("Welcome to {0}.  Would you like to make a reservation?", hotelName);
             Console.ReadLine();
-             
-            //getting information for reservation
-            Console.WriteLine("What name would you like the reservation under?");
-            string Name = (Console.ReadLine());
-            var reservation = new Reservation( Name );
-         ;
 
-            Console.WriteLine("Please enter ID?");
-            string ID = Console.ReadLine();
-
-            var reservation2 = new Reservation(ID, Name);
-            Console.WriteLine("Your reservation at the {0} for {1} with ID {2} is approved ", hotelName, Name, ID);
+            //Chaining constructors with an ID and no name.
+            Reservation reservation1 = new Reservation("3");
+            Console.WriteLine(reservation1.Name + " " + reservation1.ID);
          
             Console.ReadLine();
 

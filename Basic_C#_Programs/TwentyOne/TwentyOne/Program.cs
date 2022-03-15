@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.IO; 
 using Casino;
 using Casino.TwentyOne;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace TwentyOne
 {
@@ -19,19 +21,19 @@ namespace TwentyOne
 
             Guid identifier = Guid.NewGuid();
 
-            Console.WriteLine("Welcome to the {0}.  Let's start by telling me your name." , casinoName);
+            Console.WriteLine("Welcome to the {0}.  Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
 
             bool validAnswer = false;
             int bank = 0;
-            while(!validAnswer)
+            while (!validAnswer)
             {
                 Console.WriteLine("And how much money did you bring today?");
                 validAnswer = int.TryParse(Console.ReadLine(), out bank);
                 if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
             }
 
-           
+
             Console.WriteLine("Hello, {0}.  Would you like to join a game of 21 right now?", playerName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
@@ -45,7 +47,7 @@ namespace TwentyOne
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
-                
+
                 while (player.isActivelyPlaying && player.Balance > 0)
                 {
                     try
@@ -64,7 +66,7 @@ namespace TwentyOne
                         Console.ReadLine();
                         return;
                     }
-                    
+
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
@@ -73,51 +75,33 @@ namespace TwentyOne
             Console.WriteLine("Feel free to look around the casino.  Bye for now.");
             Console.ReadLine();
 
-            //TwentyOneGame game = new TwentyOneGame();
-            //game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
-            //game.ListPlayers();
-            //Console.ReadLine();
+        }
+        private static void UpdateDbWithException(Exception ex)
+        {
+            string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneGame;           
+                                    Integrated Security=True;Connect Timeout=30;Encrypt=False;
+                                    TrustServerCertificate=False;ApplicationIntent=ReadWrite;
+                                    MultiSubnetFailover=False";
 
-            //Game game = new TwentyOneGame();
-            //game.Players = new List<Player>();
-            //Player player = new Player();
-            //player.Name = "Jesse";
-            //game += player;
-            //game -= player;
+            string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) Values
+                                 (@ExceptionType, @ExceptionMessage, @TimeStamp)";
 
-            //Card card = new Card();
-            //card.Suit = Suit.Clubs;
+            using (SqlConnection connection = new SqlConnection(connectionString)) 
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+                command.Parameters.Add("@ExceptionType", SqlDbType.VarChar);
+                command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar);
+                command.Parameters.Add("@TimeStamp", SqlDbType.DateTime);
 
+                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString();
+                command.Parameters["@ExceptionMessage"].Value = ex.Message;
+                command.Parameters["@TimeStamp"].Value = DateTime.Now;
 
+                connection.Open();
+                command.ExecuteNonQuery();
 
-            //Card card1 = new Card();
-            //Card card2 = card1;
-            //card1.Face = Face.Eight;
-            //card2.Face = Face.King;
+            }
 
-            //Console.WriteLine(card1.Face);
-
-            //Deck deck = new Deck();
-
-            //int count = deck.Cards.Count(x => x.Face == Face.Ace);
-           //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
-
-
-           // foreach(Card card in newList)
-           // {
-           //     Console.WriteLine(card.Face);
-           // }
-            
-
-            //deck.Shuffle(3);
-
-            //foreach (Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-
-            //Console.WriteLine(deck.Cards.Count);
-           // Console.ReadLine();
         }
 
     }
